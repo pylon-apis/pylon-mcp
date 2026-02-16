@@ -1,0 +1,17 @@
+{
+  "name": "pylon-mcp-server",
+  "version": "1.0.0",
+  "description": "Unified MCP server exposing all 10 Pylon AI APIs as tools",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "pylon-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "license": "MIT"
+}
